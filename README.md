@@ -1,1 +1,1 @@
-# school
+# only for school works
