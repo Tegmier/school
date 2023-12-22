@@ -1,2 +1,4 @@
 *.csv filter=lfs diff=lfs merge=lfs -text
 d:/code/school/Introduction[[:space:]]to[[:space:]]Machine[[:space:]]Learning/Week06_exercise filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.json filter=lfs diff=lfs merge=lfs -text
