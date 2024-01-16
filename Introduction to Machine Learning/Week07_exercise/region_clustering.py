@@ -45,12 +45,12 @@ for i in range(len(house_machi_code)):
 
 print(len(house_location))
 
-# # plot the house positions
-# house_machi_code.plot(x = 'latitude', y = 'longitude', kind = 'scatter', label = 'House location', marker = '+', color = 'black')
-# plt.title("Scatterplot of house locations")
-# plt.xlabel("Latitude")
-# plt.ylabel("Longitude")
-# plt.show()
+# plot the house positions
+house_machi_code.plot(x = 'latitude', y = 'longitude', kind = 'scatter', label = 'House location', marker = '+', color = 'black')
+plt.title("Scatterplot of house locations")
+plt.xlabel("Latitude")
+plt.ylabel("Longitude")
+plt.show()
 
 location_array = house_machi_code[['latitude', 'longitude']].to_numpy()
 
